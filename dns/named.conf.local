@@ -1,1 +1,5 @@
 // exemplo de configuração local
+zone "asa" {
+    type master;
+    file "/etc/bind/db.asa";
+};
